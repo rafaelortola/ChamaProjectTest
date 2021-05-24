@@ -1,6 +1,6 @@
 # ChamaProjectTest
 
-Java Version -> 1.8.0_191
+Observação: Ao importar o projeto em sua máquina, provavelmente a sua IDE vai deixar padra o JAVA 11, mas, pode ser que dê um erro dizendo que a versão é incompatível, portanto, tenha a seguinte versão para executar Java Version -> 1.8.0_191
 
 1- Dar um git clone em seu terminal, dentro de uma pasta de sua preferência para o projeto <br>
 2- Para rodar os testes, executar a classe TestRunner <br>
