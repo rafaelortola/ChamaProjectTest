@@ -1,0 +1,8 @@
+Suporte\BasePage.class
+Suporte\Config.class
+PageObjects\LoginPage.class
+PageObjects\AutenticaçãoPage.class
+PageObjects\UsuarioLogadoPage.class
+StepsDefinitions\Steps.class
+PageObjects\CriarContaPage.class
+TestRunner.class
