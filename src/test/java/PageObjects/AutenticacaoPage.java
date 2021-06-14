@@ -6,12 +6,12 @@ import org.openqa.selenium.WebDriver;
 
 import java.util.Random;
 
-public class AutenticaçãoPage extends BasePage {
-    public AutenticaçãoPage(WebDriver navegador) {
+public class AutenticacaoPage extends BasePage {
+    public AutenticacaoPage(WebDriver navegador) {
         super(navegador);
     }
 
-    public AutenticaçãoPage criarConta() throws InterruptedException {
+    public AutenticacaoPage criarConta() throws InterruptedException {
         //clica no menu Sign In
         navegador.findElement(By.className("login")).click();
         Thread.sleep(3000);

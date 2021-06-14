@@ -1,6 +1,6 @@
 package StepsDefinitions;
 
-import PageObjects.AutenticaçãoPage;
+import PageObjects.AutenticacaoPage;
 import PageObjects.CriarContaPage;
 import PageObjects.LoginPage;
 import PageObjects.UsuarioLogadoPage;
@@ -8,13 +8,9 @@ import Suporte.Config;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.pt.Dado;
-import cucumber.api.java.pt.E;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
-import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 public class Steps {
 
@@ -28,7 +24,7 @@ public class Steps {
 
     @Dado("informe um email válido")
     public void cadastrarUsuario() throws InterruptedException {
-        new AutenticaçãoPage(navegador)
+        new AutenticacaoPage(navegador)
                 .criarConta()
                 .clicarBotaoCreateAnAccount();
     }
